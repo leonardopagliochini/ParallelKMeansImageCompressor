@@ -6347,3 +6347,14 @@ Number of Processors: 4
 
 
 
+./build/mpiEncoder
+--------------------------------------
+Image path: /home/leo/GitHub_leonardopagliochini/ParallelKMeansImageCompressor/benchmarkImages/lena-512x512.png
+Number of colors: 100
+Number of points: 262144
+Number of iterations: -1382061280
+Number of Processors: 10
+ ==>Time: 123.374s
+
+
+

@@ -272,7 +272,7 @@ int main(int argc, char *argv[]) {
     compressedData.resize(destLen);
 
     // Scrivi i dati compressi su file
-    outputFile.write(reinterpret_cast<const char*>(compressedData.data()), compressedData.size());
+    outputFile.write(reinterpret_cast<const char*>(buffer.data()), buffer.size());
 
         // outputFile  << width << ","<< height << "," << k << std::endl;
         // for (int i = 0 ; i < k ; i++)
